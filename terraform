@@ -1,0 +1,8 @@
+resource "local_file" "pet"{
+filename = "jaffer.txt"
+content = "hello how are you"
+}
+output "pet" {
+    value = local_file.pet
+    sensitive = true
+}
