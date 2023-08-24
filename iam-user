@@ -1,0 +1,7 @@
+resource "aws_iam_user" "Admin-user" {
+    name = "pupy"
+    tags = {
+        "description" = "Technical student"
+    }
+  
+}
